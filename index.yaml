@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  documentviewer:
+  - apiVersion: v2
+    appVersion: 8.0.17
+    created: "2023-09-06T14:58:39.6204156+09:00"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    description: DocumentViewer Kubernetes solution
+    digest: a9c758ee8ded5b9b4024b47e289ee5adc04042c0f5c51364d4f634b1f2e89d04
+    name: documentviewer
+    type: application
+    urls:
+    - https://hancom-io.github.io/charts-release/documentviewer/documentviewer-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-09-06T14:58:39.6155597+09:00"
