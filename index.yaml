@@ -3,17 +3,17 @@ entries:
   hancom-document-viewer:
   - apiVersion: v2
     appVersion: 8.0.17
-    created: "2023-09-26T11:00:37.775800372+09:00"
+    created: "2023-09-26T15:53:05.198997159+09:00"
     dependencies:
     - condition: redis.enabled
       name: redis
       repository: https://charts.bitnami.com/bitnami
       version: 16.x.x
     description: Hancom Document Viewer solution for Kubernetes
-    digest: 81396a0020769cac46d93e02c6ffcd593b2351005d441962d5ade73e99eb27e8
+    digest: 7189bedf9273b4ba745a396c9346c210bbbaec57e23067fddeaf73bd7ec090a2
     name: hancom-document-viewer
     type: application
     urls:
     - https://hancom-io.github.io/charts-release/hancom-document-viewer/hancom-document-viewer-1.0.0.tgz
     version: 1.0.0
-generated: "2023-09-26T11:00:37.771114416+09:00"
+generated: "2023-09-26T15:53:05.192870283+09:00"
